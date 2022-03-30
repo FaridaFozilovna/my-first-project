@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+width: 100%;
+height: 100%;
+background: #a5d5fd;
+}
+main {
+    margin-top:85px ;
+    box-shadow: 2px 2px #E5E5E5;
+    background: #fff;
+  width: 1080px;
+  height: 1526px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  width: 400px;
+  display: flex;
+}
+
+.header_icon {
+  margin-top: 55px;
+}
+
+.header_icon:last-child {
+  margin-right: 63px;
+}
+
+.header_icon i {
+    color: #9B9B9B;
+    
+  margin-right: 30px;
+}
+
+.header_icon img {
+  margin-right: 30px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin: 43px 16px 45px 45px;
+}
+
+.name {
+  margin-top: 43px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header_logo div p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9d9d9d;
+}
+
+hr {
+  border: 1px solid #EAEAEA;
+}
+
+.img_container {
+  height: 300px;
+  width: 960px;
+  margin: 45px auto;
+  border-radius: 20px;
+  display: flex;
+  background: #f4efe9;
+  position: relative;
+}
+
+.img_container .adidas {
+  width: 319px;
+  height: 300px;
+  position: relative;
+}
+
+.img_container .adidas img {
+  position: absolute;
+  height: 40px;
+  width: 99px;
+  left: 20px;
+  top: 16px;
+  border-radius: 0px;
+}
+
+.img_container img {
+  height: 300px;
+  width: 640px;
+  position: relative;
+}
+
+.img_container .adidas div {
+  position: absolute;
+  left: 61px;
+  top: 88px;
+  color: #8bb43c;
+  font-family: "Inter", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.img_container .adidas div span {
+  color: #151515;
+}
+
+.btn {
+  position: absolute;
+  height: 45px;
+  width: 175px;
+  left: 60px;
+  top: 201px;
+  border: 0px;
+  border-radius: 110px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #a5d364;
+}
+
+.img_container .nextbtn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 134px;
+  right: -15px;
+  box-shadow: 0.1px 0.1px #c8c8c8;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.img_container i {
+  font-size: 15px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #c8c8c8;
+}
+
+h1 {
+  height: 39px;
+  width: 240px;
+  position: absolute;
+  left: 195px;
+  top: 515px;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+input {
+  position: absolute;
+  height: 45px;
+  width: 250px;
+  right: 190px;
+  top: 515px;
+  border-radius: 10px;
+  border: 1px solid #f3f3f3;
+}
+
+.searchbox i span {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.searchbox i {
+  text-align: center;
+  color: #d1d0d0;
+  position: absolute;
+  right: 345px;
+  top: 530px;
+}
+
+.krosofka {
+  margin-top: 90px;
+  display: grid;
+  padding: 50px;
+  gap: 40px 40px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.krosofka .kros {
+  position: relative;
+  height: 260px;
+  width: 210px;
+  border-radius: 40px;
+  border: 1px solid #f3f3f3;
+  box-shadow: 1px 1px #f3f3f3;
+}
+
+.krosofka .kros img {
+  position: absolute;
+  height: 112px;
+  width: 133px;
+  left: 30px;
+  top: 20px;
+  border-radius: 0px;
+}
+.krosofka .kros .heart_icon i {
+  z-index: 1;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f3f3f3;
+  border-radius: 7px;
+  box-shadow: 0.5px 0.5px #f3f3f3;
+  color: #f3f3f3;
+}
+
+.krosofka .kros .heart_icon i:hover {
+  background: #ff8585;
+}
+.krosofka .kros .info {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  height: 32px;
+  width: 151px;
+  left: 30px;
+  top: 194px;
+}
+.krosofka .kros h5 {
+  position: absolute;
+  height: 40px;
+  width: 155px;
+  left: 30px;
+  top: 150px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: left;
+}
+.krosofka .kros .info h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #bdbdbd;
+}
+.krosofka .kros .info h6 p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: left;
+  color: #151515;
+}
+.krosofka .kros .info div {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f3f3f3;
+  border-radius: 8px;
+  color: #e9dfdf;
+  box-shadow: 1px 1px #f3f3f3;
+}
